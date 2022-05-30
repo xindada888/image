@@ -1,0 +1,12 @@
+@keyframes move {
+      0% {background-position: 0 0;}
+      100% {
+        background-position: -300px 0;
+      }
+}    
+.wrap {
+  background-image: linear-gradient(to right, red, orange, yellow, green, yellow, orange, red, orange, yellow, green, yellow, orange, red);   
+  -webkit-background-clip: text;  
+  animation: move 5s infinite;    
+  color: transparent;     
+  width: 300px;}
